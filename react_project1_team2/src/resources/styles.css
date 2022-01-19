@@ -158,10 +158,62 @@ footer .footer_copyright {
     text-transform: uppercase;
 }
 
+
 /*====================
         COUNTDOWN
 ======================*/
+.countdown_wrapper {
+    margin-left: 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    color: #000000;
+}
 
+.countdown_wrapper .countdown_top {
+    border-radius: 5px;
+    background: #eaf4ec;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: #d6e9db;
+    padding: 5px 10px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 50px;
+    border-right: 2px solid #f0b4b4;
+    margin-left: auto;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  }
+
+.countdown_wrapper .countdown_item:last-child .countdown_time {
+    border: none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+
+.wrapper {
+    background-color: #896E60;
+}
+
+/*====================
+        COUNTDOWN
+======================*/
+/*
 .countdown_wrapper {
     position: absolute;
     bottom: 0px;
@@ -205,6 +257,7 @@ footer .footer_copyright {
 /*====================
         VENUE NFO
 ======================*/
+*/
 .bck_black h1 {
     text-align: center;
     /*Meet the stuff - color changed*/
@@ -559,3 +612,33 @@ a.smid:hover {
     margin-top: 0px;
 }
 
+
+/*
+
+Next Olympics CSS
+*/
+
+#next_olympics
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+}
+#nextOlympicsH2 {
+    text-align: center;
+    font-size: 30px;
+}
+.nol{
+  
+    margin: auto;
+    padding: 10px;
+}
+.olicn {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+}
